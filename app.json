@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "jtrinidad",
-    "slug": "jtrinidad",
+    "name": "DonTrino",
+    "slug": "DonTrino",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/DonTrino.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/DonTrino.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#38b6ff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,16 +17,42 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dontrino",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.585675009579-bl0v2kbviforo8ii8nc0qvfdhrtc59at"
+        }
+      },
+      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
+      "package": "com.dontrino",
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCbKcMO0_zPR_HkREQaRvufHi28032b_A4"
+        }
+      },
+      "permissions": [
+        "CAMERA_ROLL",
+        "MEDIA_LIBRARY",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "USER_FACING_NOTIFICATIONS"
+      ],
+      "useNextNotificationsApi": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": ""
   }
 }

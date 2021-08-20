@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "585675009579",
+    "project_id": "dontrino-82e9b",
+    "storage_bucket": "dontrino-82e9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585675009579:android:db3f63e56bf0786d22046e",
+        "android_client_info": {
+          "package_name": "com.dontrino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585675009579-00f8s4f1e3ij1cepe0fjhhsojmou93kq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dontrino",
+            "certificate_hash": "e04f5f2653644f46466063f578bfd759be2070ba"
+          }
+        },
+        {
+          "client_id": "585675009579-mcttatqcp8bjpu81rud8odphk5dj6njv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbKcMO0_zPR_HkREQaRvufHi28032b_A4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585675009579-mcttatqcp8bjpu81rud8odphk5dj6njv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "585675009579-bl0v2kbviforo8ii8nc0qvfdhrtc59at.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dontrino"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
